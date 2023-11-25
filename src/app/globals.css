@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.full-width{
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+    background: #BEE1E6;
+}
+
+.main-menu__right {
+    display: block;
+    width: 91%;
+}
+
+.main-menu__right-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.main-menu__volunteers {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu__volunteers-icon {
+    position: relative;
+    height: 44px;
+    width: 44px;
+    background-color: #F6EF22;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu__right-bottom{
+    background: #4e5350;
+    padding: 20px;
+    color: white;
+    border-radius: 10px 0 0 0;
+}
